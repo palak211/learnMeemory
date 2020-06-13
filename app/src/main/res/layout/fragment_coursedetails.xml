@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coursedetails">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="651dp"
+        android:text="Introduction Tutorial :"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="100dp"></VideoView>
+
+    <Button
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="115dp"
+        android:autoLink="all"
+        android:background="@drawable/viewcoursebtn"
+        android:clickable="true"
+        android:text="Start Course"
+        android:textColor="#ffff"
+        android:textDirection="locale"
+        android:textStyle="bold"></Button>
+
+
+
+    <Button
+        android:id="@+id/link1"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="115dp"
+        android:autoLink="all"
+        android:background="@drawable/viewcoursebtn"
+        android:clickable="true"
+        android:text="+  About Course"
+        android:textColor="#ffff"
+        android:textDirection="locale"
+        android:textStyle="bold"></Button>
+</FrameLayout>
